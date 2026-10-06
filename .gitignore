@@ -1,0 +1,34 @@
+# ─────────────────────────────────────────────────────────────────────────
+# DADOS — nada aqui pode ser versionado.
+# A base contém endereços de médicos identificáveis; a planilha de
+# priorização é informação comercial da empresa estudada.
+# ─────────────────────────────────────────────────────────────────────────
+dados_crm/
+entrada/
+saida/
+docs/
+*.csv
+*.xlsx
+*.xls
+*.docx
+*.pdf
+
+# ─────────────────────────────────────────────────────────────────────────
+# SEGREDOS
+# O salt do geo-masking é o que torna o deslocamento irreversível. Se ele
+# vazar junto com as coordenadas mascaradas, a proteção deixa de existir.
+# ─────────────────────────────────────────────────────────────────────────
+.geomask_salt
+.env
+*.key
+*_secret*
+
+# ─────────────────────────────────────────────────────────────────────────
+# Artefatos de execução
+# ─────────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+node_modules/
+_tiles_osm/
+*.log

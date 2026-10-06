@@ -1,0 +1,15 @@
+# Dependências do pipeline de roteirização
+# Instalação:  pip install -r requirements.txt
+
+pandas
+numpy
+scipy
+scikit-learn
+k-means-constrained      # k-means com restrição de tamanho de grupo
+ortools                  # solucionador do problema de roteirização
+requests                 # consultas às APIs de endereçamento e roteamento
+matplotlib               # figuras do trabalho
+Pillow                   # composição dos mosaicos de mapa
+folium                   # mapas interativos de conferência
+openpyxl                 # leitura das planilhas de priorização
+rapidfuzz                # comparação de nomes de logradouro
